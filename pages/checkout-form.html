@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Check out</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+
+</head>
+<body>
+
+  <div class="grid grid-middle gutter-1-2">
+    <div class="unit xs-1 m-1-3">
+      <script type="application/json" data-pattern="header/logo"></script>
+    </div>
+
+    <div class="unit xs-1 m-2-3">
+      <script type="application/json" data-pattern="navigation/nav"></script>
+    </div>
+  </div>
+
+  <hr class="gutter">
+
+  <div class="gutter">
+    <script type="application/json" data-pattern="forms/form-heading"></script>
+  </div>
+
+  <div class="grid">
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/text-form"></script>
+    </div>
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/text-form">
+      {
+        "label": "Last Name",
+      }
+      </script>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/email-form"></script>
+    </div>
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/email-form">
+      {
+        "label": "Alternative email"
+      }
+      </script>
+    </div>
+
+  </div>
+
+  <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1">
+    <script type="application/json" data-pattern="forms/text-form">
+    {
+      "label": "Address"
+    }
+    </script>
+  </div>
+
+  <div class="grid">
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/text-form">
+      {
+        "label": "Apt (Optional)"
+      }
+      </script>
+    </div>
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/select-form"></script>
+    </div>
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/text-form">
+      {
+        "label": "Postal code"
+      }
+      </script>
+    </div>
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/text-form">
+      {
+        "label": "Country"
+      }
+      </script>
+    </div>
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/number-form"></script>
+    </div>
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/number-form">
+      {
+        "label": "Cellphone"
+      }
+      </script>
+    </div>
+  </div>
+
+  <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1">
+    <script type="application/json" data-pattern="forms/radio-form"></script>
+  </div>
+
+  <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1">
+    <script type="application/json" data-pattern="forms/caution-form"></script>
+  </div>
+
+  <div class="gutter">
+    <script type="application/json" data-pattern="forms/form-heading">
+      {
+        "h2": "Payment detail"
+      }
+    </script>
+  </div>
+
+
+  <div class="grid">
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1">
+      <script type="application/json" data-pattern="forms/number-form">
+      {
+        "label": "Credit or Debit Card Number"
+      }
+      </script>
+    </div>
+
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/number-form">
+      {
+        "label": "Security Number"
+      }
+      </script>
+    </div>
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+      <script type="application/json" data-pattern="forms/number-form">
+      {
+        "label": "Expire date"
+      }
+      </script>
+    </div>
+
+  </div>
+
+    <div class="unit gutter pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1">
+      <script type="application/json" data-pattern="forms/checkbox-form"></script>
+    </div>
+
+
+  <div class="gutter pad-t-2">
+    <script type="application/json" data-pattern="forms/submit-form"></script>
+  </div>
+
+
+
+  <div class="grid">
+
+    <div class="unit unit-content-distribute unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+      <script type="application/json" data-pattern="footer/nav-footer"></script>
+    </div>
+
+    <div class="unit unit-content-distribute unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+      <script type="application/json" data-pattern="footer/form-footer"></script>
+    </div>
+
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+      <script type="application/json" data-pattern="footer/copyright"></script>
+    </div>
+
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+      <script type="application/json" data-pattern="navigation/footer-sns"></script>
+    </div>
+
+  </div>
+
+</body>
+</html>

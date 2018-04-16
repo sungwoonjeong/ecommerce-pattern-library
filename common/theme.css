@@ -1,0 +1,105 @@
+:root {
+  --color-primary: #005a36;
+  --color-primary-light: #0b8957;
+  --color-seocondary: #12ad89;
+  --color-accent: #e76904;
+  --color-neutral: #ebebeb;
+
+  --font-primary: "Asap", sans-serif;
+  --font-seocondary: "Lato", sans-serif;
+
+  --fontweight-primary: bold;
+
+  --fontstlye-primary: italic;
+
+  --border-radius: 8px;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-primary-light);
+}
+
+h3 {
+  color: var(--color-neutral);
+}
+
+h4 {
+  color: var(--color-primary-light);
+}
+
+h5 {
+  color: #fff;
+}
+
+h6 {
+  color: var(--color-primary);
+}
+
+a {
+  font-weight: bold;
+  font-family: var(--font-seocondary);
+  color:  var(--color-primary);
+}
+
+ul li {
+  font-weight: var(--fontweight-primary);
+}
+
+li {
+  font-family: var(--font-seocondary);
+}
+
+dl {
+  font-weight: var(--fontweight-primary);
+}
+
+blockquote {
+  font-style: italic;
+}
+
+cite {
+  font-weight: var(--fontweight-primary);
+}
+
+q {
+  font-style: italic;
+}
+
+em {
+  color: var(--color-primary-light);
+  font-weight: var(--fontweight-primary);
+}
+
+strong {
+  color: var(--color-primary-light);
+}
+
+ins {
+  font-style: var(--fontstlye-primary);
+}
+
+del {
+  font-style: var(--fontstlye-primary);
+  font-weight: var(--fontweight-primary);
+}
+
+abbr {
+  font-weight: var(--fontweight-primary);
+}
+
+mark {
+  color: #fff;
+  background-color: var(--color-primary);
+}
+
+s {
+  font-weight: var(--fontweight-primary);
+}

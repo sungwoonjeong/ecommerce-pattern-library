@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Product list page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+
+</head>
+<body>
+
+  <div class="grid grid-middle gutter-1-2">
+    <div class="unit xs-1 m-1-3">
+      <script type="application/json" data-pattern="header/logo"></script>
+    </div>
+
+    <div class="unit xs-1 m-2-3">
+      <script type="application/json" data-pattern="navigation/nav"></script>
+    </div>
+  </div>
+
+  <hr class="gutter">
+
+  <div class="grid wrapper">
+    <div class="unit gutter-half xs-1 m-1-3">
+      <script type="application/json" data-pattern="forms/select-form">
+        {
+          "label": "Sort by",
+          "option:nth-child(1)": "Low-High",
+          "option:nth-child(2)": "High-Low",
+          "option:nth-child(3)": "New",
+          "option:nth-child(4)": "Old",
+          "option:nth-child(5)": "Alphabetical order"
+        }
+      </script>
+    </div>
+
+    <div class="unit gutter-half xs-1 m-1-3">
+      <script type="application/json" data-pattern="forms/select-form">
+        {
+          "label": "Product",
+          "option:nth-child(1)": "Tea",
+          "option:nth-child(2)": "Cups",
+          "option:nth-child(3)": "Plates",
+          "option:nth-child(4)": "Book",
+          "option:nth-child(5)": "Teapot"
+        }
+      </script>
+    </div>
+
+    <div class="unit gutter-half xs-1 m-1-3">
+      <script type="application/json" data-pattern="forms/select-form">
+        {
+          "label": "Flavour",
+          "option:nth-child(1)": "Black Tea",
+          "option:nth-child(2)": "Green Tea",
+          "option:nth-child(3)": "Sencha",
+          "option:nth-child(4)": "Oolong",
+          "option:nth-child(5)": "Roasted Oolong"
+        }
+      </script>
+    </div>
+  </div>
+
+  <div class="grid wrapper">
+
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "Green tea bag",
+        "p": "$7 - $70"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "Chai tea bag",
+        "p": "$3 - $30"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "Black tea bag",
+        "p": "$4 - $20"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "White tea bag",
+        "p": "$17 - $200"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "Oolong tea bag",
+        "p": "$7 - $90"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "R.Oolong tea bag",
+        "p": "$5 - $70"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "Herbal tea bag",
+        "p": "$20 - $50"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "Puerth tea bag",
+        "p": "$7 - $50"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "G-Black tea bag",
+        "p": "$8 - $40"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "Sencha",
+        "p": "$27 - $60"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "Mint tea bag",
+        "p": "$1 - $7"
+      }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 l-1-3">
+      <script type="application/json" data-pattern="cards/item-card">
+      {
+        "use[xlink:href]": "../images/icon.svg#tea",
+        "h2 ": "Some tea bag",
+        "p": "$200 - $300"
+      }
+      </script>
+    </div>
+
+  </div>
+
+
+
+  <div class="grid">
+
+    <div class="unit unit-content-distribute unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+      <script type="application/json" data-pattern="footer/nav-footer"></script>
+    </div>
+
+    <div class="unit unit-content-distribute unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+      <script type="application/json" data-pattern="footer/form-footer"></script>
+    </div>
+
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+      <script type="application/json" data-pattern="footer/copyright"></script>
+    </div>
+
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+      <script type="application/json" data-pattern="navigation/footer-sns"></script>
+    </div>
+
+  </div>
+
+</body>
+</html>

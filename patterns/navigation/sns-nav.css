@@ -1,0 +1,18 @@
+.sns {
+  background-color: var(--color-neutral);
+}
+
+.sns nav ul {
+  text-align: right;
+}
+
+.sns nav li {
+  list-style-type: none;
+}
+
+.sns nav a {
+  color: var(--color-primary);
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+}

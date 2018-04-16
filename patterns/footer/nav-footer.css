@@ -1,0 +1,15 @@
+.nav-footer {
+  background-color: var(--color-neutral);
+}
+
+.nav-footer ul{
+  text-align: left
+}
+
+.nav-footer li {
+  list-style-type: none;
+}
+
+.nav-footer a {
+  font-weight: normal;
+}
