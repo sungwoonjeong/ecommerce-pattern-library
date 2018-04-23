@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library
- * @version 704d1d9a65a2fcf947b3e1586f5f2767f350bbda
+ * @version faac30c5a3c95b716d76bacb53394862f6a22592
  */
-const patternManifest_704d1d9a65a2fcf947b3e1586f5f2767f350bbda = {
+const patternManifest_faac30c5a3c95b716d76bacb53394862f6a22592 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -641,8 +641,8 @@ const patternManifest_704d1d9a65a2fcf947b3e1586f5f2767f350bbda = {
           "opposite": 255
         }
       },
-      "bodyRaw": "\nThis is the company introduction-we're so amazing and our brand signifies awesomeness!\n",
-      "bodyBasic": "This is the company introduction-we're so amazing and our brand signifies awesomeness!"
+      "bodyRaw": "\nThe Tea Time Company ranks among the top three specialty tea companies in the whole world, offering a world's best line of specialty teas: black teas, sencha teas, green teas, Oolong teas, Roasted oolong teas, organic teas, earl grey teas, and chai teas.\n",
+      "bodyBasic": "The Tea Time Company ranks among the top three specialty tea companies in the whole world, offering a world's best line of specialty teas: black teas, sencha teas, green teas, Oolong teas, Roasted oolong teas, organic teas, earl grey teas, and chai teas."
     },
     "interfaceColours": {
       "primary": 0,
@@ -757,7 +757,8 @@ const patternManifest_704d1d9a65a2fcf947b3e1586f5f2767f350bbda = {
           "namePretty": "Item card",
           "filename": "item-card",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/cards/item-card.html",
-          "localPath": "patterns/cards/item-card.html"
+          "localPath": "patterns/cards/item-card.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -854,63 +855,72 @@ const patternManifest_704d1d9a65a2fcf947b3e1586f5f2767f350bbda = {
           "namePretty": "Caution form",
           "filename": "caution-form",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/forms/caution-form.html",
-          "localPath": "patterns/forms/caution-form.html"
+          "localPath": "patterns/forms/caution-form.html",
+          "readme": {}
         },
         {
           "name": "checkbox-form",
           "namePretty": "Checkbox form",
           "filename": "checkbox-form",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/forms/checkbox-form.html",
-          "localPath": "patterns/forms/checkbox-form.html"
+          "localPath": "patterns/forms/checkbox-form.html",
+          "readme": {}
         },
         {
           "name": "email-form",
           "namePretty": "Email form",
           "filename": "email-form",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/forms/email-form.html",
-          "localPath": "patterns/forms/email-form.html"
+          "localPath": "patterns/forms/email-form.html",
+          "readme": {}
         },
         {
           "name": "form-heading",
           "namePretty": "Form heading",
           "filename": "form-heading",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/forms/form-heading.html",
-          "localPath": "patterns/forms/form-heading.html"
+          "localPath": "patterns/forms/form-heading.html",
+          "readme": {}
         },
         {
           "name": "number-form",
           "namePretty": "Number form",
           "filename": "number-form",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/forms/number-form.html",
-          "localPath": "patterns/forms/number-form.html"
+          "localPath": "patterns/forms/number-form.html",
+          "readme": {}
         },
         {
           "name": "radio-form",
           "namePretty": "Radio form",
           "filename": "radio-form",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/forms/radio-form.html",
-          "localPath": "patterns/forms/radio-form.html"
+          "localPath": "patterns/forms/radio-form.html",
+          "readme": {}
         },
         {
           "name": "select-form",
           "namePretty": "Select form",
           "filename": "select-form",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/forms/select-form.html",
-          "localPath": "patterns/forms/select-form.html"
+          "localPath": "patterns/forms/select-form.html",
+          "readme": {}
         },
         {
           "name": "submit-form",
           "namePretty": "Submit form",
           "filename": "submit-form",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/forms/submit-form.html",
-          "localPath": "patterns/forms/submit-form.html"
+          "localPath": "patterns/forms/submit-form.html",
+          "readme": {}
         },
         {
           "name": "text-form",
           "namePretty": "Text form",
           "filename": "text-form",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/forms/text-form.html",
-          "localPath": "patterns/forms/text-form.html"
+          "localPath": "patterns/forms/text-form.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1033,21 +1043,24 @@ const patternManifest_704d1d9a65a2fcf947b3e1586f5f2767f350bbda = {
           "namePretty": "Sign up",
           "filename": "sign-up",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/section/sign-up.html",
-          "localPath": "patterns/section/sign-up.html"
+          "localPath": "patterns/section/sign-up.html",
+          "readme": {}
         },
         {
           "name": "suggestion-heading",
           "namePretty": "Suggestion heading",
           "filename": "suggestion-heading",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/section/suggestion-heading.html",
-          "localPath": "patterns/section/suggestion-heading.html"
+          "localPath": "patterns/section/suggestion-heading.html",
+          "readme": {}
         },
         {
           "name": "suggestion",
           "namePretty": "Suggestion",
           "filename": "suggestion",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/section/suggestion.html",
-          "localPath": "patterns/section/suggestion.html"
+          "localPath": "patterns/section/suggestion.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1098,5 +1111,5 @@ const patternManifest_704d1d9a65a2fcf947b3e1586f5f2767f350bbda = {
   }
 };
 
-patternBotIncludes(patternManifest_704d1d9a65a2fcf947b3e1586f5f2767f350bbda);
+patternBotIncludes(patternManifest_faac30c5a3c95b716d76bacb53394862f6a22592);
 }());

@@ -3,20 +3,18 @@ name: "Tea Time"
 fontUrl: "https://fonts.googleapis.com/css?family=Asap:500,700|Lato:900"
 fonts:
   primary: |
-    The primary typeface represents a strong and bold face with lines that show stability and arrogance to fully express the power and dominance of our company.
+    The primary typeface represents a clean, open and welcoming font with a contemporary feel. It stronlgy define the company
 
-    Use the primary typeface for body copy, captions and should really anything by default
+    Use the primary typeface for headlines, body copy, subheads and should really anything by default
   secondary: |
-    The secondary typeface is a compressed serif that really shows strength and dominance over our domain.
-
-    The secondary typeface should be used for headings, buttons and to highlight important things
+    The secondary typeface should be used for bottons only!
 colors:
   primary: |
-    The primary colours are amazing and represent amazingness. Use them for headers, footers and emphasis.
+    The primary colours are amazing and represent energetic and contemporary look and feel. Use them for headers, navigation, emphasis and should really anything by default.
   secondary: |
-    The secondary colours represent things and stuff. Use them for links or when you want an extra pop.
+    The secondary colours represent fresh. Use them for form or sections.
   neutral: |
-    The neutral colours are bland. Their real purpose is for body copy, captions, tables etc.
+    The neutral colours are bland. Their real purpose is for footer only.
 ---
 
-This is the company introduction-we're so amazing and our brand signifies awesomeness!
+The Tea Time Company ranks among the top three specialty tea companies in the whole world, offering a world's best line of specialty teas: black teas, sencha teas, green teas, Oolong teas, Roasted oolong teas, organic teas, earl grey teas, and chai teas.

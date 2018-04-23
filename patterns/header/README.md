@@ -7,7 +7,3 @@ logo: |
 ---
 
 The header element represents a container for introductory content or a set of navigational links. It contains logo, banner and navigation.
-
-'''
-<h1>Strong</h1>
-'''
