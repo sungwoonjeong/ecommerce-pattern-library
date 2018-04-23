@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library
- * @version faac30c5a3c95b716d76bacb53394862f6a22592
+ * @version 99a59ad01f33dded35b4675c3751b355ff7f84a1
  */
-const patternManifest_faac30c5a3c95b716d76bacb53394862f6a22592 = {
+const patternManifest_99a59ad01f33dded35b4675c3751b355ff7f84a1 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -963,6 +963,13 @@ const patternManifest_faac30c5a3c95b716d76bacb53394862f6a22592 = {
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/header/logo.html",
           "localPath": "patterns/header/logo.html",
           "readme": {}
+        },
+        {
+          "name": "skip-links",
+          "namePretty": "Skip links",
+          "filename": "skip-links",
+          "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/header/skip-links.html",
+          "localPath": "patterns/header/skip-links.html"
         }
       ],
       "md": [
@@ -981,6 +988,13 @@ const patternManifest_faac30c5a3c95b716d76bacb53394862f6a22592 = {
           "filename": "banner",
           "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/header/banner.css",
           "localPath": "patterns/header/banner.css"
+        },
+        {
+          "name": "skip-links",
+          "namePretty": "Skip links",
+          "filename": "skip-links",
+          "path": "/Users/harryjeong/Documents/Semester 04/Web Development 04/week 03/ecommerce-pattern-library/patterns/header/skip-links.css",
+          "localPath": "patterns/header/skip-links.css"
         }
       ],
       "js": []
@@ -1111,5 +1125,5 @@ const patternManifest_faac30c5a3c95b716d76bacb53394862f6a22592 = {
   }
 };
 
-patternBotIncludes(patternManifest_faac30c5a3c95b716d76bacb53394862f6a22592);
+patternBotIncludes(patternManifest_99a59ad01f33dded35b4675c3751b355ff7f84a1);
 }());
